@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="game-box">
+        <h1>🎮 Number Guessing Game</h1>
+        <p>Guess a number between 1 and 100</p>
+
+        <form method="POST">
+            <input type="number" name="guess" required>
+            <button type="submit">Guess</button>
+        </form>
+
+        <h2>{{ message }}</h2>
+    </div>
+</body>
+</html>
