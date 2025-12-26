@@ -1,0 +1,34 @@
+body {
+    background: #1e1e2f;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.game-box {
+    background: #2d2d44;
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00c896;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00a87a;
+}
